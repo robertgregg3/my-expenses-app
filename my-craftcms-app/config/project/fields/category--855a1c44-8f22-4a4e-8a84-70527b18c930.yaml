@@ -1,0 +1,77 @@
+columnSuffix: null
+handle: category
+instructions: 'Expense Category'
+name: Category
+searchable: true
+settings:
+  customOptions: false
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Bills
+        -
+          - value
+          - bills
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Groceries
+        -
+          - value
+          - groceries
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Personal
+        -
+          - value
+          - personal
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Investments
+        -
+          - value
+          - investments
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Work
+        -
+          - value
+          - work
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Miscelaneous
+        -
+          - value
+          - miscelaneous
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

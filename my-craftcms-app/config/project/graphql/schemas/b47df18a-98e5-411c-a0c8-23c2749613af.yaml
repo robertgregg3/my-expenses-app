@@ -1,0 +1,4 @@
+isPublic: false
+name: ExpenseTrackerSchema
+scope:
+  - 'sites.a4d3f320-9f0f-4a08-8c10-7779b730b08b:read' # my Expenses App

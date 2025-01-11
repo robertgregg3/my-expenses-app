@@ -1,0 +1,16 @@
+columnSuffix: null
+handle: whatDidYouSpendMoneyOn
+instructions: 'Was this your energy bill? Internet?  Dinner at a restaurant? Put the expense here'
+name: 'What did you spend money on?'
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: 50
+  code: false
+  initialRows: 4
+  multiline: false
+  placeholder: 'Put the expense here'
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

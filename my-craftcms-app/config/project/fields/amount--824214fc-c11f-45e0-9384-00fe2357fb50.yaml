@@ -1,0 +1,15 @@
+columnSuffix: null
+handle: amount
+instructions: null
+name: Amount
+searchable: true
+settings:
+  currency: GBP
+  defaultValue: 0
+  max: null
+  min: 1
+  showCurrency: true
+  size: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Money
