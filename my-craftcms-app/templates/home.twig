@@ -1,0 +1,26 @@
+{% extends "index" %}
+
+{% block content %}
+
+   {% set image = entry.homeBgImage.one() %}
+    <main class="home-hero" style="background-image: url('{{ image.url }}')">
+        <div class="home-hero__content">
+            <h1>{{ entry.homeTitle }}</h1>
+            <div class='home-intro'>{{ entry.homeIntro }}</div>
+            <div class='expenses'>
+                <div class='new-expenses'>
+                    <input placeholder='What did you spend money on?' type='text' name='expense-what' id='expense-what' />
+                    <input placeholder='Amount' type='number' name='expense-how-much' id='expense-how-much' />
+                    <input placeholder='date' type='date' name='expense-when' id='expense-when' />
+                    {# <input placeholder='date' type='date' name='date' id='date' /> #} 
+                    <button id='save-expense'>Save</button>
+                </div>
+                <div class='created-expenses-wrapper'>
+                    <h2>Expenses: <span class='total-expenses'></span></h2>
+                    <ul id='created-expenses'>
+                    
+                    </ul>
+                </div>
+        </div>
+    </main>
+{% endblock %}

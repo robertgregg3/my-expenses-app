@@ -1,0 +1,50 @@
+defaultPlacement: end
+fieldLayouts:
+  a3996993-fe77-4c4f-9336-e0fab9f0739f:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-01-11T23:24:58+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: 488d2eba-671f-4fe6-a29b-18373dd6e908
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: e66107da-70cc-42a0-b12a-31d3037fe414
+        userCondition: null
+handle: teestGroup
+name: 'Teest Group'
+siteSettings:
+  a4d3f320-9f0f-4a08-8c10-7779b730b08b: # my Expenses App
+    hasUrls: true
+    template: teest-group/_category.twig
+    uriFormat: 'teest-group/{slug}'
+structure:
+  maxLevels: null
+  uid: a1d67ecd-bd00-47b6-b859-78862d8b5f0f

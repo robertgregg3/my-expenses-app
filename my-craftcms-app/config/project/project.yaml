@@ -1,18 +1,41 @@
-dateModified: 1736547437
+dateModified: 1736681338
 email:
   fromEmail: iamrobertgregg@gmail.com
   fromName: 'my Expenses App'
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  images:
+    hasUrls: true
+    name: images
+    settings:
+      path: $ASSET_BASE_PATH
+    type: craft\fs\Local
+    url: $ASSET_BASE_URL
 meta:
   __names__:
+    6ca42f50-d288-48c9-b8bd-19e98a61a5c3: 'Teest Group' # Teest Group
+    6d5663f5-21a9-4b89-a5de-764ccbb3e6a2: 'Home BG Image' # Home BG Image
+    017e298a-0ec6-4865-acfe-12b150da1249: 'Home intro' # Home intro
+    33d12e4d-e299-4248-8e73-ad9f94320c9e: Images # Images
+    049a860c-378f-4b4b-8524-5f0b816892f7: Simple # Simple
+    66bde825-d2ef-43cb-b545-cc37c0275482: 'Expenses Details' # Expenses Details
     95f20392-ed07-4378-8bc1-24a1af5c0000: Date # Date
     855a1c44-8f22-4a4e-8a84-70527b18c930: Category # Category
     896b5dc8-39b8-409a-9c50-232b554997c2: 'my Expenses App' # my Expenses App
+    7272c50c-fe29-43ee-8a95-fe18e7e97d52: Home # Home
     824214fc-c11f-45e0-9384-00fe2357fb50: Amount # Amount
     a4d3f320-9f0f-4a08-8c10-7779b730b08b: 'my Expenses App' # my Expenses App
     b47df18a-98e5-411c-a0c8-23c2749613af: ExpenseTrackerSchema # ExpenseTrackerSchema
+    b894b8eb-61a5-43ec-8ac8-18d183aaf374: 'Home Title' # Home Title
     bb9e9535-1d5f-49c0-82c3-c6cc14220b00: 'What did you spend money on?' # What did you spend money on?
     cd3ba89a-700f-4e52-94ae-03704ce0cd7b: 'Public Schema' # Public Schema
+    d3b56472-dd7b-46f1-9ff4-99d69829adac: 'Home Page' # Home Page
+    e7c839a3-9728-4f58-b05a-6ca99d4d8961: Home # Home
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
 system:
   edition: solo
   live: true

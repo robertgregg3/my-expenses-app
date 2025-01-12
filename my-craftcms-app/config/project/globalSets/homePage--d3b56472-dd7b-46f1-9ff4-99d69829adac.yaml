@@ -1,0 +1,28 @@
+fieldLayouts:
+  0d1988c2-99c8-4790-8dc0-5d1469c30334:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-01-11T23:53:47+00:00'
+            elementCondition: null
+            fieldUid: 6d5663f5-21a9-4b89-a5de-764ccbb3e6a2 # Home BG Image
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9e8c1b6d-e01a-4800-bf3d-3fdffac8d3f6
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 171eddf1-5492-4794-8be6-0ad7bff7129f
+        userCondition: null
+handle: homePage
+name: 'Home Page'
+sortOrder: 2

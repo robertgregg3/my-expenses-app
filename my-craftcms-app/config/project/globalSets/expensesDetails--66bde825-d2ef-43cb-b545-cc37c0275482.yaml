@@ -1,0 +1,76 @@
+fieldLayouts:
+  6145c120-e9da-4d14-b401-655e0221dc92:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-01-11T23:35:06+00:00'
+            elementCondition: null
+            fieldUid: bb9e9535-1d5f-49c0-82c3-c6cc14220b00 # What did you spend money on?
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 00703a50-569f-49cd-b5d4-bef076047650
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-01-11T23:35:06+00:00'
+            elementCondition: null
+            fieldUid: 824214fc-c11f-45e0-9384-00fe2357fb50 # Amount
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f4771633-3b43-453f-8916-1675a8dcf2db
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-01-11T23:35:06+00:00'
+            elementCondition: null
+            fieldUid: 855a1c44-8f22-4a4e-8a84-70527b18c930 # Category
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8ab6a512-b703-4c41-88ff-e734fa6cb09d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-01-11T23:35:06+00:00'
+            elementCondition: null
+            fieldUid: 95f20392-ed07-4378-8bc1-24a1af5c0000 # Date
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3695af00-cb45-4bdb-a595-a339ce9439c8
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Expense deails'
+        uid: 736c7664-86dc-4d46-bf4b-2c97b463aeac
+        userCondition: null
+handle: expensesDetails
+name: 'Expenses Details'
+sortOrder: 1

@@ -1,0 +1,36 @@
+columnSuffix: null
+handle: homeBgImage
+instructions: null
+name: 'Home BG Image'
+searchable: true
+settings:
+  allowSelfRelations: false
+  allowSubfolders: false
+  allowUploads: true
+  allowedKinds:
+    - image
+  branchLimit: null
+  defaultUploadLocationSource: 'volume:33d12e4d-e299-4248-8e73-ad9f94320c9e' # Images
+  defaultUploadLocationSubpath: null
+  maintainHierarchy: false
+  maxRelations: 1
+  minRelations: 1
+  previewMode: full
+  restrictFiles: true
+  restrictLocation: false
+  restrictedDefaultUploadSubpath: null
+  restrictedLocationSource: 'volume:33d12e4d-e299-4248-8e73-ad9f94320c9e' # Images
+  restrictedLocationSubpath: null
+  selectionLabel: 'Upload Home Background Image'
+  showCardsInGrid: false
+  showSiteMenu: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  sources:
+    - 'volume:33d12e4d-e299-4248-8e73-ad9f94320c9e' # Images
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: large
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Assets
